@@ -1,0 +1,413 @@
+*{
+    margin: 0;
+    font-family:Arial ;
+    border:border-box;
+  }
+  .navbar {
+    height: 80px;
+    background-color:rgb(19, 105, 122);
+    color:aliceblue;
+    align-items: center;
+    display: flex;
+  
+    justify-content: space-evenly;
+
+  }
+ .add-icon {
+      font-size: 55px;
+ }
+ .border {
+    border: 1.5px solid transparents;
+ }
+ .border:hover {
+  border: 1.5px solid transparents;
+ }
+ .nav-search{
+     font:white;
+     display: flex;
+     justify-content: space-evenly;
+     background-color: rgb(132, 132, 129);
+
+     width: 700px;
+     height: 30px;
+     margin-left: 150px;
+   margin-top: -10px;
+     border-radius:10px;
+ }
+ .search-select{
+    font:white;
+    background-color:white;
+    width:80px;
+    text-align: center;
+      border-top-left-radius:10px;
+       border-bottom-left-radius:10px;
+      border: none;
+       
+ }
+ .search-input{
+      font:white;
+    width: 600px;
+
+ }
+  .panel{
+    height: 40px;
+    background-color: rgb(8, 157, 167);
+    display: flex;
+    color: white;
+    align-items:center;
+    justify-content: space-evenly;
+  }
+   .panel_ops{
+    display: flex;
+    
+   }
+    .panel_ops p {
+     
+    margin:50px;
+   }
+
+   .panel_ops{
+    width:90%;
+ 
+   }
+    #home_img {
+      width: 100%;
+      height: 250px;
+    }
+    .heading{
+      position:  relative;
+      display: inline-block;
+      width: 100%;
+    }
+    .text{
+      position: absolute;
+      top:75px;
+      left:50px;
+      color: black;
+      font-weight: bold;
+      font-size:40px ;
+      font-family: cursive;
+       
+    }
+     /*.vege {
+      width:450px;
+      height:250px;
+      margin-left: 40px ;
+      margin-top: 30px;
+      border: 2px solid black ;
+      text-align: center;
+       padding: 10px;
+       box-shadow: 2px 2px 8px black;
+     }
+     img{
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+     }
+     .vege:hover{
+       box-shadow: 2px 10px 20px black;
+     }
+       */
+       .shop-part{
+        display:flex;
+        justify-content: space-evenly;
+        background-color: rgb(255, 249, 214);
+       }
+       .box{
+   
+        height:850px;
+        width: 70%;
+        background-color:rgb(247, 236, 236);
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        
+       }
+       .box1{
+        border: 1px solid black;
+        height:850px;
+        width: 30%;
+        background-color:  white;
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+align-items: center;
+
+ 
+       }
+        .box1:hover{
+          box-shadow : 0px 6px 12px black;
+
+        }
+       .order{
+        border: 1px solid rgb(0, 0, 0);
+height:230px;
+        width: 200px;
+        margin-left: 10px;
+        margin-top: 24px;
+         padding-top: 20px;
+         align-items: center;
+          text-align: center;
+          background-color: white;
+       }
+       img{
+        width: 150px;
+        height: 150px;
+          object-fit: cover;
+           
+       }
+         .order:hover{
+          box-shadow: 0px 6px 12px black;
+        }
+       .newicon{
+               
+height:50px;
+        width:50px;
+        margin-left: 10px;
+      margin-top: 2px;
+        font-size: 30px;
+        background-color:  white;
+     border: 2px solid rgb(10, 0, 0);
+       }
+        .p{
+          font-size: 5px; 
+        }
+         
+     .firstelectrobox {
+                    
+              height:300px;
+        width: 100%;
+        background-color: rgb(215, 181, 181);
+      
+      
+        
+       }
+        
+
+       .secondelctroboxing{
+                      
+              height:1490px;
+        width: 100%;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap:wrap;
+         background-color: rgb(253, 246, 246);
+        
+       }
+        .electrobox{
+                      border: 1px solid rgb(0, 0, 0);
+              height:330px;
+        width: 250px;
+        margin: 30px;
+        text-align: center;
+        line-height: 0.7;
+        margin: 20px;
+        background-color: white;
+        }
+          .electrobox:hover{
+          box-shadow: 0px 6px 12px black;
+        }
+        .electrobox img{
+         height:200px;
+        width: 200px; 
+         padding:20px;
+         
+        }
+          
+       .firstvejoobox {
+                   
+              height:400px;
+        width: 100%;
+       background-color:  white;
+        
+        
+       }
+       .secondvejooboxing{
+                    border: 2px solid rgb(0, 0, 0);  
+              height:1490px;
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap:wrap;
+        background-color: rgb(243, 252, 254);
+        
+       }
+        .vejoobox{
+                      border: 1px solid rgb(0, 0, 0);
+              height:330px;
+        width: 250px;
+        margin: 30px;
+        text-align: center;
+        line-height: 0.7;
+        margin: 20px;
+        box-shadow: 0px 2px 6px black;
+        background-color:white;
+        }
+        .vejoobox:hover{
+          box-shadow: 0px 6px 12px black;
+        }
+        .vejoobox img{
+         height:200px;
+        width: 200px; 
+         padding:20px;
+         
+        }   
+        .firstvejoobox img {
+           width: 100%;
+           height: 400px;
+ 
+            
+            
+        } 
+          .firstvejoobox p{
+
+            font-size: 50px;
+            margin-top: -330px;
+            margin-left: 100px;
+            font-family: cursive;
+             color: black;
+
+          }
+          .firstelectrobox {
+                       
+              height:370px;
+        width: 100%;
+       background-color:   white;
+      justify-content: space-evenly;
+       display: flex;
+          }
+              
+         .firstelectrobox :hover{
+            box-shadow: 0px 6px 12px black;
+         }
+        
+        
+         .firstelectrobox img{
+         height:330px;
+        width: 500px;
+        margin-top: 20px;
+        margin-left: 600px;
+
+
+         }
+           .firstgrosobox {
+                    border: 2px solid rgb(0, 0, 0);
+              height:300px;
+        width: 100%;
+      
+        
+        
+       }
+       .secondgrosoboxing{
+                      border: 2px solid rgb(0, 0, 0);
+              height:1490px;
+        width: 100%;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap:wrap;
+        background-color: rgb(253, 246, 246);
+        
+       }
+        .grosobox{
+                      border: 1px solid rgb(0, 0, 0);
+              height:330px;
+        width: 250px;
+        margin: 30px;
+        text-align: center;
+        line-height: 0.7;
+        margin: 20px;
+        background-color: white;
+        }
+          .grosobox:hover{
+          box-shadow: 0px 6px 12px black;
+        }
+        .grosobox img{
+         height:200px;
+        width: 200px; 
+         padding:20px;
+         
+        }
+         .firstgrosobox {
+                       border: 2px solid rgb(0, 0, 0);
+              height:370px;
+        width: 100%;
+       background-color:rgb(247, 236, 236);
+      justify-content: space-evenly;
+       display: flex;
+          }
+         .firstgrosobox img{
+          height: 250px;
+width: 250px;
+margin-left:500px;
+margin-top: 80px;
+         }
+         
+      .firstgrosobox p{
+        font-size: 35px;
+        margin-left: -1600px;
+        margin-top: 100px;
+        font-family: cursive;
+
+      }
+      .footer{
+        background: #d3cccc;
+        padding: 40px;
+      }
+       .container{
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+         
+       }
+       .foot_menu p{
+          color: black;
+          font-size: -70px;
+       }
+  .ordo h2{
+    text-align: center;
+    margin-bottom: 18px;
+    color:   rgb(8, 157, 167);
+}
+
+label {
+    font-weight: 600;
+    margin-top: 10px;
+    display: block;
+    align-items: center;
+}
+
+input, textarea {
+    width: 500px;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+     
+}
+
+.btn {
+    width: 300px;
+    margin-top: 20px;
+    background:   rgb(8, 157, 167);
+
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    
+
+     
+}
+
+.btn:hover {
+    background:  rgb(8, 157, 167);
+};
